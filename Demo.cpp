@@ -6,7 +6,6 @@
  */
 
 #include "snowman.hpp"
-
 #include <iostream>
 #include <stdexcept>
 using namespace std;
