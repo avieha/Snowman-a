@@ -89,7 +89,7 @@ TEST_CASE("Good snowman code - Torso Check")
 TEST_CASE("Good snowman code - Base Check")
 {
 	CHECK(nospaces(snowman(11114411)) == nospaces("_===_\n(.,.)\n( : )\n( : )"));
-	CHECK(nospaces(snowman(11114412)) == nospaces("_===_\n(.,.)\n( : )\n(" ")"));
+	CHECK(nospaces(snowman(11114412)) == nospaces("_===_\n(.,.)\n( : )\n("\ "\)"));
 	CHECK(nospaces(snowman(11114413)) == nospaces("_===_\n(.,.)\n( : )\n(___)"));
 	CHECK(nospaces(snowman(11114414)) == nospaces("_===_\n(.,.)\n( : )\n(\0)"));
 }
